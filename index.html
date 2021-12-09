@@ -122,6 +122,14 @@
                         </a></div>
                 </div>
             </div>
+            <div class="row" id="comments">
+                <script>
+                    Waline({
+                        el: '#waline',
+                        serverURL: 'https://deltarunecn.vercel.app',
+                    });
+                </script>
+                </div>
         </div>
         <div aria-labelledby="pc_modal_label" class="modal" id="pc_modal" role="dialog" tabindex="-1">
             <div class="modal-dialog" role="document">
@@ -197,14 +205,6 @@
                         <p>本站是粉丝创建的DELTARUNE中文站,非官方性质</p>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-            <script>
-                Waline({
-                    el:'#comments',
-                    serverURL:'https://deltarunecn.vercel.app'
-                });
-            </script>
             </div>
     </div>
     </footer>
