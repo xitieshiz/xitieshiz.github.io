@@ -197,11 +197,19 @@
                     </div>
                 </div>
             </div>
-        </div>
+            <div id="waline"></div>
+            <script>
+                Waline({
+                    el:'#comments'
+                    serverURL:'https://deltarunecn.vercel.app'
+                });
+            </script>
+    </div>
     </footer>
     <script src="assets/javascripts/jquery.js"></script>
     <script src="assets/javascripts/bootstrap.js"></script>
     <script src="assets/javascripts/index.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/@waline/client"></script>
 </body>
 
 </html>
