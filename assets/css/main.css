@@ -88,15 +88,15 @@ nav.navbar {
  }
 }
 nav > .flags {
-  float: right;
+  position: absolute;
+  right: 0;
+  top: 0;
   list-style: none;
   padding-left: 0;
   margin-bottom: 0;
 }
 nav > .flags li {
-  float: left;
-  position: relative;
-  display: block;
+  display: inline-block;
   padding-right: 10px;
 }
 nav > .flags li a, nav > .flags li img {
@@ -284,7 +284,7 @@ nav > .flags li a:hover, nav > .flags li img:hover {
   display: inline-block;
   border-radius: 8px;
   border: 2px solid white;
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(100, 100, 100, 0.5);
   min-height: 72px;
   max-width: 300px;
   color: white;
@@ -863,7 +863,7 @@ footer {
 }
 footer .disclaimer {
   font-size: 10px;
-  color: #474747;
+  color: #878787;
 }
 footer a {
   text-decoration: underline;
@@ -873,7 +873,7 @@ footer a:hover {
   color: #ccc;
 }
 footer .privacy a {
-  color: #474747;
+  color: #878787;
   font-size: 10px;
   text-decoration: none;
 }
